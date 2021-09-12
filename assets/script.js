@@ -6,6 +6,12 @@ var confLowerCase = confirm("Include Lowercase?");
 var confNumbers = confirm("Include Numbers?");
 var confSymbols = confirm("Include Symbols?");
 
+// Arreys for lower case,numbers, symbols
+lowerCaseChars = ["a", "b", "c", "d", 'e', "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+numberChars = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+symbolChars = ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", "\:", "\;", " < ", "=", " > ", " ? ", "@", "[", "\\", "]", " ^ ", "_", "`", "{", "|", "}", "~"];
+// for uppercase conversion
+space = [];
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
