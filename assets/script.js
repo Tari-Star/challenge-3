@@ -1,5 +1,10 @@
 // Assignment code here
-
+// variables for user's input
+var passLength = Number(prompt("Enter a password length between 8 and 128."));
+var confUpperCase = confirm("Include Uppercase?");
+var confLowerCase = confirm("Include Lowercase?");
+var confNumbers = confirm("Include Numbers?");
+var confSymbols = confirm("Include Symbols?");
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
